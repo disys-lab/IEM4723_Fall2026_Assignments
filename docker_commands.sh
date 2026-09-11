@@ -14,3 +14,4 @@ docker run --rm logistic_regression_layered:latest ls -l /home/iem4723/
 docker run --rm --volume "%cd%\data:/home/iem4723/data" logistic_regression_layered:latest
 
 # Question 4
+docker run --rm --publish 3333:8000 simple_file_server
