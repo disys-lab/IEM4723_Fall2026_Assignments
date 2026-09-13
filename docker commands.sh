@@ -11,4 +11,4 @@ docker run --name volume_regression --volume "C:/Users/bubba/Documents/GitHub/IE
 
 # question 3
 docker build -t logistic_regression_layered:latest .
-docker run --name logistic_regression_container --volume "C:/Users/bubba/Documents/GitHub/IEM4723_Fall2026_Assignments/assignment1/layering/data:/home/iem4723/data" logistic_regression_layered:latest
+docker run --name logistic_regression_container --volume "C:/Users/bubba/Documents/GitHub/IEM4723_Fall2026_Assignments/assignment1/layering/data:/home/iem4723/data" logistic_regression_layered:latest 
