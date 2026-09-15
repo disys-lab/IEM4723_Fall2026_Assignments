@@ -20,3 +20,8 @@
     docker run --name layering_test --volume C:\Users\luked\Documents\GitHub\IEM4723_Fall2026_Assignments\assignment1\layering\data\:/home/iem4723/data/ -d logistic_regression_layered:latest
 
 # Question 4
+    #build the file server container image
+    docker build -t file_server:latest .
+
+    #Run the Container with Port Publishing
+    docker run --name server_test --publish 3333:8000 -d file_server:latest
