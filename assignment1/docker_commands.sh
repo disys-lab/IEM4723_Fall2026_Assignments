@@ -6,7 +6,7 @@ docker tag linear-regression-app emehen/linear-regression-app:latest
 docker push emehen/linear-regression-app:latest
 
 # Question 2
-
+docker run --volume ./data:/home/iem4723/data volume-mounting-app
 
 # Question 3
 
