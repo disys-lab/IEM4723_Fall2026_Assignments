@@ -11,7 +11,8 @@ docker build -t volume-regression-app:latest .
 docker run --name regression_volume --volume "%cd%\data:/home/iem4723/data" -d volume-regression-app:latest
 
 # Question 3
-
+docker build -t logistic_regression_layered:latest .
+docker run --name question3_container --volume "%cd%\data:/home/iem4723/data" logistic_regression_layered:latest
 
 # Question 4
 
