@@ -13,6 +13,10 @@
     docker run --name volume_test --volume C:\Users\luked\Documents\GitHub\IEM4723_Fall2026_Assignments\assignment1\volume-mounting\data\:/home/iem4723/data/ -d volume_app:latest
 
 # Question 3
+    #build the layered logistic regression container image
+    docker build -t logistic_regression_layered:latest .
 
+    #run the container with volume mounting to sync host and container data
+    docker run --name layering_test --volume C:\Users\luked\Documents\GitHub\IEM4723_Fall2026_Assignments\assignment1\layering\data\:/home/iem4723/data/ -d logistic_regression_layered:latest
 
 # Question 4
