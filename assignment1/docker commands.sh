@@ -7,7 +7,8 @@ docker push daytonmccall/linear-regression-app:latest
 
 
 # Question 2
-
+docker build -t volume-regression-app:latest .
+docker run --name regression_volume --volume "%cd%\data:/home/iem4723/data" -d volume-regression-app:latest
 
 # Question 3
 
