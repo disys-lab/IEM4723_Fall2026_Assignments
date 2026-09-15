@@ -15,4 +15,5 @@ docker build -t logistic_regression_layered:latest .
 docker run --name question3_container --volume "%cd%\data:/home/iem4723/data" logistic_regression_layered:latest
 
 # Question 4
-
+docker build -t simple_file_server:latest .
+docker run --name question4_container --publish 3333:8000 -d simple_file_server:latest
