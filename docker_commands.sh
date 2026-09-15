@@ -12,3 +12,5 @@ docker run --rm --volume "${PWD}\data:/home/iem4723/data" volume-mounting-app
 
 # Question 3
 docker build -t logistic_regression_layered:latest .
+docker run --rm --entrypoint /bin/sh logistic_regression_layered:latest -c "ls -la /home/iem4723/"
+docker run --rm --volume "${PWD}\data:/home/iem4723/data" logistic_regression_layered:latest
