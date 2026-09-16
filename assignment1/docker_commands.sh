@@ -10,4 +10,3 @@ docker push killianbarnes2/linear-regression-app:latest
 
 # Question 2
 docker run --rm -v "$(pwd)/data:/home/iem4723/data" linear-regression-app-volume
-ls -l data
