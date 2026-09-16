@@ -22,3 +22,7 @@
 ··• sudo docker run --volume data_volume2:/home/iem4723/data/ logistic_regression_layered:lastest
 #same issue as in the prior question, running it the correct way just gets me errors that neither I nor the AI can figure out. 
 #One theory the AI came up with is that the Linux OS is denying access to the file as its under my user profile and the container may be running from root or something... but I do not know how to fix that?
+
+#Question 4
+··• docker build -t simple_file_server .
+··• docker run --publish 3333:8000 simple_file_server
