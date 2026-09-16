@@ -8,3 +8,7 @@ docker push morrowe/linear-regression-app:latest
 
 # Question 2
 docker run -v C:\path\to\data:/app/data morrowe/linear-regression-app:latest
+
+# Question 3
+docker build -t logistic_regression_layered:latest .
+docker run -v C:\Users\18179\Documents\GitHub\IEM4723_Fall2026_Assignments\assignment1\layering\data:/home/iem4723/data logistic_regression_layered:latest
