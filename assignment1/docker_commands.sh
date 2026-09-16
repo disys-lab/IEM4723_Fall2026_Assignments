@@ -8,3 +8,6 @@ docker push nadiaphan/linear-regression-app:latest
 #question 2
 docker build -t volume-mounting-app .
 docker run --volume "${PWD}\data:/home/iem4723/data" volume-mounting-app
+
+#question 3
+docker run --rm -v "${PWD}\data:/home/iem4723/data" logistic_regression_layered:latest
