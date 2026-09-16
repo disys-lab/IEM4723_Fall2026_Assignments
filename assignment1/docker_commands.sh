@@ -9,7 +9,6 @@ docker tag linear-regression-app:latest killianbarnes2/linear-regression-app:lat
 docker push killianbarnes2/linear-regression-app:latest
 
 # Question 2
-docker run -t linear-regression-app-volume
 docker run --rm -v "$(pwd)/data:/home/iem4723/data" linear-regression-app-volume
 
 # Question 3
