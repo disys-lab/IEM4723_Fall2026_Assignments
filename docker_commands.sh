@@ -19,3 +19,9 @@ cd layering
 docker build -t logistic_regression_layered:latest . 
 docker run --volume "$(pwd)/data:/home/iem4723/data" logistic_regression_layered:latest
 cd ..
+
+#Question 4
+cd port_listening
+docker build -t simple_file_server:latest .
+docker run --publish 3333:8000 simple_file_server:latest
+cd ..
