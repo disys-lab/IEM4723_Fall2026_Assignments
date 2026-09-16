@@ -13,4 +13,4 @@ docker build -t logistic_regression_layered:latest .
 docker run --volume ./data:/home/iem4723/data logistic_regression_layered:latest
 
 # Question 4
-docker run --publish 3333:8000 port-listening-appit 
+docker run --publish 3333:8000 port-listening-app
