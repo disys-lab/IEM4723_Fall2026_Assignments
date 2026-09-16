@@ -16,3 +16,7 @@ docker run --rm --volume "C:\Users\laura\OneDrive\Documents\Github\IEM4723_Fall2
 #Question 3
 docker build -t logistic_regression_layered:latest ./layering
 docker run --rm --volume "C:\Users\laura\OneDrive\Documents\GitHub\IEM4723_Fall2026_Assignments\assignment1\layering\data:/home/iem4723/data" logistic_regression_layered:latest
+
+
+#Question 4
+docker run --rm -p 3333:8000 simple-file-server:latest
