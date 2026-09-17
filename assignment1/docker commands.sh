@@ -1,0 +1,19 @@
+# Question 1
+docker build -t linear-regression-app .
+docker tag linear-regression-app linear-regression-app:v0.1.1
+docker tag linear-regression-app linear-regression-app:v0.1.2
+docker tag linear-regression-app:latest daytonmccall/linear-regression-app:latest
+docker push daytonmccall/linear-regression-app:latest
+
+
+# Question 2
+docker build -t volume-regression-app:latest .
+docker run --name regression_volume --volume "%cd%\data:/home/iem4723/data" -d volume-regression-app:latest
+
+# Question 3
+docker build -t logistic_regression_layered:latest .
+docker run --name question3_container --volume "%cd%\data:/home/iem4723/data" logistic_regression_layered:latest
+
+# Question 4
+docker build -t simple_file_server:latest .
+docker run --name question4_container --publish 3333:8000 -d simple_file_server:latest
