@@ -12,3 +12,6 @@ docker build -t volume-mounting-app .
 docker run --rm -v "$(pwd)/data:/home/iem4723/data" volume-mounting-app
 
 # Question 3
+
+docker build -t logistic_regression_layered:latest .
+docker run --rm -v "$(pwd)/data:/home/iem4723/data" logistic_regression_layered:latest
