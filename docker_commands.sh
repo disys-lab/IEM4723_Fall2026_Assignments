@@ -7,3 +7,8 @@ docker tag linear-regression-app micahjbullard/linear-regression-app:latest
 docker push micahjbullard/linear-regression-app:latest
 
 # Question 2
+
+docker build -t volume-mounting-app .
+docker run --rm -v "$(pwd)/data:/home/iem4723/data" volume-mounting-app
+
+# Question 3
