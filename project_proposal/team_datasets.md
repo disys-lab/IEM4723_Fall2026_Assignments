@@ -16,3 +16,7 @@ Please add your team's details below by submitting a pull request or filling out
 ### Team Name: ARK
 - **Team Members:** Andrew Gungoll, Ryan Leslie, Killian Barnes
 - **Dataset:** [Kaggle: College Major ROI](https://www.kaggle.com/datasets/sergionefedov/college-major-roi)
+
+### Team Name: The Crash Analysts
+- **Team Members:** Morrow Entrekin, Elanor Mehen, and Abby Emert
+- **Dataset:** https://catalog.data.gov/dataset/traffic-crashes-crashes?from_hint=eyJzb3J0IjoicG9wdWxhcml0eSIsInEiOiJEZXBhcnRtZW50IG9mIFRyYW5zcG9ydGF0aW9uIiwic3BhdGlhbF9maWx0ZXIiOiIifQ%3D%3D
