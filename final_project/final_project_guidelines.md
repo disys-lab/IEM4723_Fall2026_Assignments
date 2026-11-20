@@ -30,7 +30,7 @@ The demo is the largest single component of the presentation grade. It must be *
 - Start from containers you brought up before class. Do not spend presentation time waiting for images to pull.
 - Show at least three interactions that change what is on the page. Changing a filter and having the charts and metrics respond is the minimum.
 - Answer at least one question that requires the database rather than a precomputed file.
-- **Have a recorded fallback.** If the live demo fails, play your Milestone 4 video and keep going. A failed demo with no fallback loses the full demo mark. 
+- **Have a recorded fallback.** If the live demo fails, play your recording and keep going. A failed demo with no fallback loses the full demo mark. 
 - **You do not have to submit the video recording**.
 
 ---
@@ -99,8 +99,7 @@ Marks are deducted for running over time, for a demo that is not live without a 
 | Database documentation: entity definitions, schema, justification | 4 |
 | Containerization and reproducibility from a clean clone | 4 |
 | Dashboard documentation, including chart choices | 3 |
-| Demo video, three to five minutes, with captions | 2 |
-| Professionalism and completeness of the report | 2 |
+| Professionalism and completeness of the report | 4 |
 | **Total** | **20** |
 
 
@@ -124,5 +123,4 @@ Before the report deadline:
 - [ ] README with the clone-to-running instructions
 - [ ] `docker-compose.yml` and all Dockerfiles committed
 - [ ] Data committed, or a loader script that fetches it
-- [ ] Demo video committed or linked, with captions
 - [ ] Repository cloned to a fresh directory and started from scratch, to confirm it works
